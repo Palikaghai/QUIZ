@@ -1,4 +1,4 @@
-
+        const questionBanks = {
             cpp: [
                 { question: "Who invented C++?", answers: [
                     { text: "Bjarne Stroustrup", correct: true },
@@ -136,4 +136,5 @@
         subjectSelect.addEventListener("change", startQuiz);
 
         startQuiz();
+
 
